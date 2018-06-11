@@ -4,7 +4,7 @@
 
 var token = "607967748:AAGGCS5t8TK7aKxZUeav2sgwcPTmkpVJDls"; // FILL IN YOUR OWN TOKEN
 var telegramUrl = "https://api.telegram.org/bot" + token;
-var webAppUrl = "http://anpodintelegrambot.herokuapp.com"; // FILL IN YOUR GOOGLE WEB APP ADDRESS
+var webAppUrl = "https://anpodintelegrambot.herokuapp.com"; // FILL IN YOUR GOOGLE WEB APP ADDRESS
 
 function getMe() {
   var url = telegramUrl + "/getMe";
