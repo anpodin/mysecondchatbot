@@ -35,4 +35,3 @@ function doPost(e) {
   var name = data.message.chat.first_name + " " + data.message.chat.last_name;
   var answer = "Hi " + name + ", thank you for your comment " + text;
   sendText(id,answer);
-  SpreadsheetApp.openById(ssId).getSheets()[0].appendRow([new Date(),id,name,text,answer]);
