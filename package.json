@@ -1,0 +1,19 @@
+{
+  "name": "my-second-telegram-chat-bot",
+  "version": "1.0.0",
+  "description": "Testing some simple abilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": ["chatbot", "nodejs", "telegram"],
+  "author": {
+    "name": "Ahdrey Podprugin",
+    "url": "https://telegram.org"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "telegram-node-bot": "^4.0.3"
+  }
+}
